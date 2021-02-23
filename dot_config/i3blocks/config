@@ -1,0 +1,15 @@
+#[kube]
+#command=/home/josh/Utils/i3blocks_scripts/kube.sh
+#interval=10
+
+[disk]
+command=/home/josh/Utils/i3blocks_scripts/disk.sh
+interval=10
+
+[net]
+command=/home/josh/Utils/i3blocks_scripts/net.sh
+interval=10
+
+[time]
+command=date
+interval=60

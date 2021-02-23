@@ -1,0 +1,17 @@
+alias k='kubectl'
+alias kgc='kubectl config get-contexts'
+alias kuc='kubectl config use-context'
+alias kgp='kubectl get pods'
+alias klogs='kubectl logs'
+alias kdesc='kubectl describe'
+alias kevent='kubectl get events'
+alias o='popd > /dev/null'
+alias p='pushd > /dev/null'
+alias vi='nvim'
+alias vim='nvim'
+alias open-pr='gh pr create --fill --assignee jharshman --label platform --label seals --reviewer seals'
+alias docker-run='docker run --rm'
+alias bitly="cd $HOME/Projects/bitly"
+alias tfp='terraform plan -out /tmp/tf.plan'
+alias tfs="terraform show /tmp/tf.plan | rg 'created|updated|replaced|destroyed'"
+alias tfa='terraform apply /tmp/tf.plan'
