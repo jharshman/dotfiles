@@ -79,6 +79,7 @@ EOM
   fi
 
   # do operation
-  echo kubectl -n $_namespace del $_resource
+  # danger, here be dragons
+  kubectl -n $_namespace del $_resource
 }
 
