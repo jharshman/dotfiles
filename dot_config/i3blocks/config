@@ -1,15 +1,19 @@
-#[kube]
-#command=/home/josh/Utils/i3blocks_scripts/kube.sh
-#interval=10
+[kube]
+LABEL=
+command=/home/josh/Utils/i3blocks_scripts/kube.sh
+interval=once
+signal=10
 
 [disk]
+LABEL=
 command=/home/josh/Utils/i3blocks_scripts/disk.sh
 interval=10
 
 [net]
+LABEL=
 command=/home/josh/Utils/i3blocks_scripts/net.sh
-interval=10
+interval=30
 
 [time]
-command=date
+command=date +"%H:%M %D"
 interval=60
